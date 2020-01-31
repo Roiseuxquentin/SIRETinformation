@@ -1,0 +1,23 @@
+{
+  "name": "siretinformation",
+  "version": "1.0.0",
+  "description": "Recupère une information sur les fiches d\"identité d'entreprise depuis l'API data.gouv.fr à partir d'une liste de siret au format JSON.",
+  "main": "giveMeData.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roiseuxquentin/SIRETinformation.git"
+  },
+  "author": "QuentinRoiseux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Roiseuxquentin/SIRETinformation/issues"
+  },
+  "homepage": "https://github.com/Roiseuxquentin/SIRETinformation#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.0"
+  }
+}
